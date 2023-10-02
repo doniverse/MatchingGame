@@ -245,17 +245,29 @@
 	}
 
 	@media screen and (max-width: 820px){
+		h1{
+			font-size: 1.5rem;
+		}
 		.card {
 			height: 80px;
 			width: 80px;
 			font-size: 2rem;
 		}
+		.matches {
+			font-size: 1rem;
+		}
 	}
 
 	@media screen and (max-width: 400px){
+		h1{
+			font-size: 1rem;
+		}
 		.card {
-			height: 40px;
-			width: 40px;
+			height: 60px;
+			width: 60px;
+			font-size: 1.5rem;
+		}
+		.matches {
 			font-size: 1rem;
 		}
 	}
